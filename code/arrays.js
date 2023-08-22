@@ -34,18 +34,16 @@ stations.shift();
 
 stationCount = stations.length;
 
-console.log("There are " + stationCount + " stations.");
-
-
+//console.log("There are " + stationCount + " stations.");
 
 /**
  * Q4.
  * Which station is the third stop?
  */
 
-thirdStation = null;
+thirdStation = stations[2];
 
-// console.log("The third station is " + thirdStation);
+console.log("The third station is " + thirdStation);
 
 
 
