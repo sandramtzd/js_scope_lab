@@ -60,19 +60,23 @@ stations[1]="Berwick-upon-Tweed"
 /**
  * Q6.
  * How did Leeds get on there? Better remove it.
+ * Splice method specify the position where is the element we want to delete and how many items we want to delete.
  */
 
-stations.splice(4,1);
-console.log(stations);
 
+stations.splice(4,1);
+//console.log(stations);
 
 
 /**
  * Q7.
- * We forgot about Darlington! Add it to the route between Newcastle and York.
+ * We forgot about Darlington! Add it to the route between Newcastle and York. 
+ * Using splice method indicating place to insert, 0 to dont delete and the item
  */
 
-// console.log(stations);
+stations.splice(3, 0, "Darlington")
+
+//console.log(stations);
 
 
 
@@ -81,9 +85,11 @@ console.log(stations);
  * Is Durham one of the stops?
  */
 
-stoppingAtDurham = null;
 
-// console.log(stoppingAtDurham);
+
+stoppingAtDurham = stations.includes("Durham");
+
+console.log(stoppingAtDurham);
 
 
 /**
