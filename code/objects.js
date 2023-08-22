@@ -42,8 +42,9 @@ catBreed = cat.breed;
 /**
  * Q3. It's the tortoise's birthday! Add one to her current age.
  */
+tortoise["age"] = tortoise.age + 1
 
-// console.log(tortoise)
+console.log(tortoise)
 
 /**
  * Q4. How many different colours is Poppy?
