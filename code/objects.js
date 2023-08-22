@@ -72,18 +72,19 @@ parrot = {
 
 tortoise.favouriteFood = "dandelion";
 
-console.log(tortoise);
+//console.log(tortoise);
 
 /**
  * Q7. What's the combined age of all the pets?
  */
 
-totalPetAge = null;
+totalPetAge = dog.age + cat.age + tortoise.age + parrot.age;
 
-// console.log("The total age of the pets is " + totalPetAge);
+//console.log("The total age of the pets is " + totalPetAge);
 
 /**
  * Q8. It's turns out that Morris isn't a European Shorthair. We don't actually know his real breed, so remove that key from his object
  */
 
-// console.log(cat);
+delete cat.breed;
+console.log(cat);
