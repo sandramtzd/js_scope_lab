@@ -32,26 +32,31 @@ unitedKingdom = [
  * Q1. Add some tourist attractions to England
  */
 
-england = null;
+unitedKingdom[1].touristAttractions = ["Windsor Castle", "British Museum"];
+england = unitedKingdom[1];
 
-// console.log(england);
+//console.log(england);
 
 /**
  * Q2. Change the capital of Wales to "Cardiff"
  */
 
-wales = null;
+unitedKingdom[2].capital = "Cardiff"
+wales = unitedKingdom[2];
 
-// console.log(wales);
+//console.log(wales);
 
 /**
  * Q3. Find a method in the documentation which will give you all of the available keys for Northern Ireland
  */
 
-northernIrelandKeys = null;
 
-// console.log(northernIrelandKeys);
+northernIrelandKeys = Object.keys(unitedKingdom[0,1,2,3]);
+
+console.log(northernIrelandKeys);
 
 /**
  * Q4. Use an if statement to compare the population of Scotland to the other countries and print out if it is the biggest, smallest or somewhere in the middle.
  */
+
+
