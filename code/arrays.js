@@ -41,9 +41,9 @@ stationCount = stations.length;
  * Which station is the third stop?
  */
 
-thirdStation = stations[2];
+//thirdStation = stations[2];
 
-console.log("The third station is " + thirdStation);
+//console.log("The third station is " + thirdStation);
 
 
 
@@ -52,7 +52,8 @@ console.log("The third station is " + thirdStation);
  * Someone put the wrong Berwick on the timetable! Update "North Berwick" to "Berwick-upon-Tweed".
  */
 
-// console.log(stations);
+stations[1]="Berwick-upon-Tweed"
+//console.log(stations);
 
 
 
@@ -61,7 +62,8 @@ console.log("The third station is " + thirdStation);
  * How did Leeds get on there? Better remove it.
  */
 
-// console.log(stations);
+stations.splice(4,1);
+console.log(stations);
 
 
 
